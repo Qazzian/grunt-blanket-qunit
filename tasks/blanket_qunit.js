@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     var path = require('path');
 
     // External lib.
-    var phantomjs = require('grunt-contrib-qunit/node_modules/grunt-lib-phantomjs').init(grunt);
+    var phantomjs = require('grunt-lib-phantomjs').init(grunt);
 
     var lcovReporter = require('./lcov-reporter');
 
